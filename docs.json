@@ -41,29 +41,29 @@
     "global": {
       "anchors": [
         {
-          "anchor": "REG/01 Przepisy Gry",
+          "anchor": "Zasady w pigułce",
+          "href": "/quickstart",
+          "icon": "bolt"
+        },
+        {
+          "anchor": "Przepisy Gry",
           "href": "/reg-01",
           "icon": "book-open"
         },
         {
-          "anchor": "REG/02 Mistrzostwa 1v1",
+          "anchor": "Mistrzostwa 1v1",
           "href": "/reg-02",
           "icon": "user"
         },
         {
-          "anchor": "REG/03 Mistrzostwa 2v2",
+          "anchor": "Mistrzostwa 2v2",
           "href": "/reg-03",
           "icon": "users"
         },
         {
-          "anchor": "REG/04 Wypożyczenia & Transfery",
+          "anchor": "Zarządzanie & Rynek",
           "href": "/reg-04",
-          "icon": "handshake"
-        },
-        {
-          "anchor": "REG/05 Zarządzanie Klubami",
-          "href": "/reg-05",
-          "icon": "shield"
+          "icon": "building"
         }
       ]
     }
@@ -75,28 +75,20 @@
   "navbar": {
     "links": [
       {
-        "label": "Zasady w pigułce",
-        "href": "/quickstart"
+        "label": "Strona Główna",
+        "href": "/index"
       },
       {
-        "label": "REG/01 Przepisy Gry",
+        "label": "Zasady Gry",
         "href": "/reg-01"
       },
       {
-        "label": "REG/02 Mistrzostwa 1v1",
+        "label": "Turnieje",
         "href": "/reg-02"
       },
       {
-        "label": "REG/03 Mistrzostwa 2v2",
-        "href": "/reg-03"
-      },
-      {
-        "label": "REG/04 Transfery",
+        "label": "Kluby i Transfery",
         "href": "/reg-04"
-      },
-      {
-        "label": "REG/05 Kluby",
-        "href": "/reg-05"
       }
     ]
   },
