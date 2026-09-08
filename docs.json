@@ -24,23 +24,17 @@
         ]
       },
       {
-        "group": "Turnieje i Mistrzostwa",
-        "pages": [
-          "reg-04"
-        ]
-      },
-      {
-        "group": "Kluby i Rynek Zawodników",
-        "pages": [
-          "reg-05",
-          "reg-06"
-        ]
-      },
-      {
-        "group": "Dokumenty Zniesione (Archiwum)",
+        "group": "Rozgrywki Mistrzowskie",
         "pages": [
           "reg-02",
           "reg-03"
+        ]
+      },
+      {
+        "group": "Kluby, Kontrakty i Rynek",
+        "pages": [
+          "reg-04",
+          "reg-05"
         ]
       }
     ],
@@ -52,14 +46,24 @@
           "icon": "book-open"
         },
         {
-          "anchor": "REG/04 Mistrzostwa 2v2",
-          "href": "/reg-04",
-          "icon": "trophy"
+          "anchor": "REG/02 Mistrzostwa 1v1",
+          "href": "/reg-02",
+          "icon": "user"
         },
         {
-          "anchor": "REG/05 Wypożyczenia & Transfery",
-          "href": "/reg-05",
+          "anchor": "REG/03 Mistrzostwa 2v2",
+          "href": "/reg-03",
+          "icon": "users"
+        },
+        {
+          "anchor": "REG/04 Wypożyczenia & Transfery",
+          "href": "/reg-04",
           "icon": "handshake"
+        },
+        {
+          "anchor": "REG/05 Zarządzanie Klubami",
+          "href": "/reg-05",
+          "icon": "shield"
         }
       ]
     }
@@ -79,8 +83,20 @@
         "href": "/reg-01"
       },
       {
-        "label": "REG/04 Mistrzostwa 2v2",
+        "label": "REG/02 Mistrzostwa 1v1",
+        "href": "/reg-02"
+      },
+      {
+        "label": "REG/03 Mistrzostwa 2v2",
+        "href": "/reg-03"
+      },
+      {
+        "label": "REG/04 Transfery",
         "href": "/reg-04"
+      },
+      {
+        "label": "REG/05 Kluby",
+        "href": "/reg-05"
       }
     ]
   },
