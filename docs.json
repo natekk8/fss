@@ -1,34 +1,65 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Federacja Siatkówki Stołowej",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#1E3A8A",
+    "light": "#2563EB",
+    "dark": "#172554"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "pages": [
       {
-        "group": "Getting Started",
+        "group": "Wprowadzenie",
         "pages": [
           "index",
           "quickstart"
+        ]
+      },
+      {
+        "group": "Oficjalne Przepisy Gry",
+        "pages": [
+          "reg-01"
+        ]
+      },
+      {
+        "group": "Turnieje i Mistrzostwa",
+        "pages": [
+          "reg-04"
+        ]
+      },
+      {
+        "group": "Kluby i Rynek Zawodników",
+        "pages": [
+          "reg-05",
+          "reg-06"
+        ]
+      },
+      {
+        "group": "Dokumenty Zniesione (Archiwum)",
+        "pages": [
+          "reg-02",
+          "reg-03"
         ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "REG/01 Przepisy Gry",
+          "href": "/reg-01",
+          "icon": "book-open"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "REG/04 Mistrzostwa 2v2",
+          "href": "/reg-04",
+          "icon": "trophy"
+        },
+        {
+          "anchor": "REG/05 Wypożyczenia & Transfery",
+          "href": "/reg-05",
+          "icon": "handshake"
         }
       ]
     }
@@ -40,33 +71,28 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Zasady w pigułce",
+        "href": "/quickstart"
+      },
+      {
+        "label": "REG/01 Przepisy Gry",
+        "href": "/reg-01"
+      },
+      {
+        "label": "REG/04 Mistrzostwa 2v2",
+        "href": "/reg-04"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
+    ]
   },
   "contextual": {
     "options": [
       "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+      "view"
     ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/natekk8/fss"
     }
   }
 }
